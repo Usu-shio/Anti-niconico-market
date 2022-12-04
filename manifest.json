@@ -1,8 +1,11 @@
 {
     "name": "Delete-niconico-market", 
-    "version": "1.1", 
+    "version": "2.0", 
     "manifest_version": 3, 
     "description": "全画面で重なるニコニコ市場を消す", 
+    "icons": {
+        "48": "icons/icon.png"
+    },
     "content_scripts": [
         {
             "matches": ["https://www.nicovideo.jp/watch/*"], 

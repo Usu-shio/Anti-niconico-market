@@ -1,2 +1,2 @@
-const element = document.getElementsByClassName('BottomContainer');
-element.style.display = null;
+document.querySelector('.BottomContainer').remove();
+console.log('やったぜ。');
